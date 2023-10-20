@@ -1,0 +1,40 @@
+
+
+.landing-page {
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: repeat;
+    background-color: rgb(2, 2, 59);
+    min-height: 100vh;
+  }
+
+  .imagediv{
+    width: auto;
+    height: 100%;
+    border-radius: 14px;
+    border-color: #efcf5d;
+  }
+  .projectName{
+    width: 40vw;
+    height: 60vh;
+    margin-left: 100px;
+    margin-top: 70px;
+    border-radius: 14px;
+  }
+
+
+.imagediv2{
+   width: 45vw;
+    height: 80vh;
+    margin-left: -200px;
+    margin-top: -50px;
+    border-radius: 14px;
+}
+
+.asd{
+  margin-left: 100px;
+  width: 90vw;
+  height: 70vh;
+
+  display: flex;
+}

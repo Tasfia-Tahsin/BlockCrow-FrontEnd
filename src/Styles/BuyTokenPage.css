@@ -1,0 +1,49 @@
+.buyTokenForm {
+  background-color: #71BCE1;
+  margin: 3% auto; /* Center the form horizontally with some top margin */
+  width: 40%; /* Adjust the form width as needed */
+  padding: 20px; /* Add padding for better spacing */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  text-align: center; /* Center text content */
+  font-size: large;
+}
+
+.buyTokenForm input {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+ /* CSS */
+ .buyTokenForm button{
+ background-color: #eec63a;
+ border: 2px solid #422800;
+ width: 180px;
+ height: 40px;
+ margin-top: 0px;
+ border-radius: 30px;
+ box-shadow: #422800 4px 4px 0 0;
+ justify-content: center; /* Horizontally center text */
+ align-items: center; /* Vertically center text */
+ cursor: pointer;
+ touch-action: manipulation;
+ font-size: 17px;
+}
+.buyTokenForm button:hover {
+ background-color: #efcf5d;
+}
+.buyTokenForm button:active {
+ box-shadow: #422800 2px 2px 0 0;
+ transform: translate(2px, 2px);
+}
+.centerButton{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}

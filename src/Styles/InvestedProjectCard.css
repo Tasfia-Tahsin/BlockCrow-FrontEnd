@@ -1,0 +1,92 @@
+.projectCard2{
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    margin-right: 80px;
+    margin-top: 110px;
+    background-size: 55%;
+    overflow: visible;
+    background-color: rgb(194, 234, 250);
+    border-radius: 30px; /* Rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* Flexbox styles for centering children */
+  
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    padding-bottom: 50px;
+    border: 4px solid rgb(10, 10, 62);
+    font-family: 'Comic Neue', cursive; 
+    background-position-x: center;
+    background-position-y: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #220f01;
+    font-size: 17px;
+}
+
+.projectCard2:hover {
+    transform: scale(1.05);  /* Scale up by 5% on hover */
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+ }
+.projectCard2 img {
+    width: 90%; /* Adjust the image size as needed */
+    height: 50%; /* Adjust the image size as needed */
+    margin-bottom: 12px; /* Spacing between profile picture and text */
+    margin-top: 20px;
+    border: 4px solid #8a966e;
+  }
+  
+  .projectCard2 .user_handle {
+    padding-top: 50px;
+    font-size: 35px; /* Font size for user_handle */
+    font-weight: bold; /* Bold user_handle */
+    margin-left: 10px;
+  }
+  
+  .projectCard2 .name {
+    font-size: 24px; /* Font size for name */
+    margin-top: 8px; /* Spacing between user_handle and name */
+  }
+  
+  .projectCard2 .projectDescription {
+    /*font-size: 24px;  Font size for country */
+    margin: 14px; /* Spacing between name and country */
+  }
+  
+  .projectCard2 .story_count {
+    font-size: 24px; /* Font size for story_count */
+    margin-top: 4px; /* Spacing between country and story_count */
+  }
+
+   /* CSS */
+   .projectCard2 .button{
+    background-color: #eec63a;
+    border: 2px solid #422800;
+    width: 180px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    justify-content: center; /* Horizontally center text */
+    align-items: center; /* Vertically center text */
+    cursor: pointer;
+    touch-action: manipulation;
+    font-size: 17px;
+  }
+  .projectCard2 .button:hover {
+    background-color: #efcf5d;
+  }
+  .projectCard2 .button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+
+  .extradiv{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
